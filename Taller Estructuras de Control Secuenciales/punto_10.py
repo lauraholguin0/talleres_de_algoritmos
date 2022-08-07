@@ -1,0 +1,8 @@
+che_aus=int(input("ingrese el valor en chelines austriacos:"))
+drac_grie=int(input("ingrese el valor en dracmas griegos:"))
+pese=int(input("ingrese el valor en pesetas:"))
+pese_uno=float((che_aus*956871)/100)
+pese_dos=float(drac_grie*88607)/(100*20110)
+dol=float(pese*122499)
+lir_itl=float((pese*9289)/100)
+print(f"el chelin austriacos equivale a: {pese_uno} pesetas. \nel dracma griego equivale a: {pese_dos} francos franceses. \nlas pesetas equivalen a: {dol} dolares. \nlas pesetas equivalen a: {lir_itl} liras italiana.")

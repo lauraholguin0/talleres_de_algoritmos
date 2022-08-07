@@ -1,0 +1,8 @@
+sb=int(input("¿cual es su sueldo base?: "))
+pv=int(input("valor primera venta: "))
+sv=int(input("valor segunda venta: "))
+tv=int(input("valor tercera venta: "))
+comision=((pv+sv+tv)*0.1)
+total=(comision+sb)
+print(f"por comision en total se gana: {comision}")
+print(f"Sueldo total es: {total}") 
