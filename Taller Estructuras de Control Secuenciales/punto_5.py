@@ -1,0 +1,7 @@
+pp=int(input("ingrese primera nota parcial: "))
+sp=int(input("ingrese segunda nota parcial: "))
+tp=int(input("ingrese tercer nota parcial: "))
+ef=int(input("ingrese nota examen final: "))
+tf=int(input("ingrese nota trabajo final: "))
+nota_final=((((pp+sp+tp)*0.55))/3)+(ef*0.30)+(tf*0.15)
+print(f"la calificacion final de la materia es: {nota_final}")
