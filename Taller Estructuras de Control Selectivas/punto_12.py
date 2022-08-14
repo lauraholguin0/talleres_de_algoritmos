@@ -1,0 +1,46 @@
+valor=int(input(""))
+dinero=""
+if(valor>=100000):
+    dinero=valor//100000
+    print(f"100000")
+    valor=valor%100000
+if(valor>=50000):
+    dinero=valor//50000
+    print(f"50000")
+    valor=valor%50000
+if(valor>=20000):
+    dinero=valor//20000
+    print(f"20000")
+    valor=valor%20000
+if(valor>=10000):
+    dinero=valor//10000
+    print(f"10000")
+    valor=valor%10000
+if(valor>=5000):
+    dinero=valor//5000
+    print(f"5000")
+    valor=valor%5000
+if(valor>=2000):
+    dinero=valor//2000
+    print(f"2000")
+    valor=valor%2000
+if(valor>=1000):
+    dinero=valor//1000
+    print(f"1000")
+    valor=valor%1000
+if(valor>=500):
+    dinero=valor//500
+    print(f"500")
+    valor=valor%500
+if(valor>=200):
+    dinero=valor//200
+    print(f"200")
+    valor=valor%200
+if(valor>=100):
+    dinero=valor//100
+    print(f"100")
+    valor=valor%100
+if(valor>=50):
+    dinero=valor//50
+    print(f"50")
+    valor=valor%50

@@ -1,0 +1,10 @@
+a=int(input(""))
+b=int(input(""))
+c=int(input(""))
+d=int(input(""))
+if(d==0):
+    print((a-c)**2)
+elif(d>0):
+    print((a-b)**3)
+else:
+    print(d)
