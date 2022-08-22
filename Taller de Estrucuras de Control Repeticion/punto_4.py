@@ -1,0 +1,10 @@
+a=0
+num=6
+suma=6
+while(a<11):
+    a=a+1
+    if(num<=61):
+        num=num+5
+        suma=suma+num
+print(num)
+print(suma)
